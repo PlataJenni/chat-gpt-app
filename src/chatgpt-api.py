@@ -37,7 +37,7 @@ def  principal ():
 
         si  el contenido  ==  "nuevo" :
             print ( "🆕 Nueva conversacion creada" )
-            mensajes  = [ contexto ]
+            mensajes  = [ Se cambio el contexto ]
             contenido  =  __prompt ()
 
         mensajes _ agregar ({ "rol" : "usuario" , "contenido" : contenido })
